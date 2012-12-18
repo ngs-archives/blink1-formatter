@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "blink1_formatter/version"
 
 Gem::Specification.new do |s|
-  s.name        = "blink1_formatter"
+  s.name        = "blink1-formatter"
   s.version     = Blink1Formatter::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['Atsushi Nagase']
