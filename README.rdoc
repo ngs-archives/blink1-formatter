@@ -11,6 +11,10 @@ Or add to `.rspec` file
     --format progress
     --format Blink1Formatter
 
+== Installing
+
+    gem install blink1-formatter
+
 == Author
 
 - {Atsushi Nagase}[http://ngs.io/]
