@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency  'bundler',     '~> 1.0'
   s.add_development_dependency  'rspec',       '~> 2.11'
   # s.add_development_dependency  'guard-rspec', '~> 1.2'
+  s.add_dependency 'rb-blink1', '~> 0.02'
 
   s.files        = `git ls-files`.split("\n").reject{|f| f =~ /^\..+$/}
   s.require_paths = ["lib"]
