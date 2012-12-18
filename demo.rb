@@ -1,11 +1,11 @@
 require_relative 'spec/spec_helper'
 require 'stringio'
 
-describe NyanCatFormatter do
+describe Blink1Formatter do
 
   before do
     @output = StringIO.new
-    @formatter = NyanCatFormatter.new(@output)
+    @formatter = Blink1Formatter.new(@output)
     @formatter.start(2)
     @example = RSpec::Core::ExampleGroup.describe.example
 
@@ -17,7 +17,7 @@ describe NyanCatFormatter do
 
   100.times do |index|
     it "should perform passing specs" do
-      @formatter.current.should == @samples.sample
+      @samples.sample.should == 0
     end
 
     it "should perform pending specs" do
