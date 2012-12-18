@@ -1,15 +1,16 @@
 = blink(1) RSpec Formatter
 
-== Using in command line
-
 This enables indicating RSpec 2 status with blink(1).
 
     rspec --format progress --format Blink1Formatter
 
 Make sure using text based formatter. If not specified, you cannot check the status with the terminal.
 
-== Or add to `.rspec` file
+Or add to `.rspec` file
 
     --format progress
     --format Blink1Formatter
 
+== Author
+
+- {Atsushi Nagase}[http://ngs.io/]
